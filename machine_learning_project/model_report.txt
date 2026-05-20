@@ -1,0 +1,13 @@
+Titanic Survival Prediction Report
+=================================
+Model Accuracy: 79.33%
+
+[[88 17]
+ [20 54]]
+
+Kehy Observations:
+- The model was trained using Random Forst.
+- Features used: pclass , sex, age, far.
+- The model predicte whether a passenger survived.
+- Accuracy indicates the percentage of correct predictions.
+- The confusion matrix provieds detailed classification results.

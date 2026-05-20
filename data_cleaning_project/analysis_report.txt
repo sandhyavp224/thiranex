@@ -1,0 +1,13 @@
+Titanic Data Cleaning and Visualization Report
+===========================================
+Total Passengers After Cleaning: 679
+Average Age: 29.00
+
+Survival Rate by GenderP:
+female: 67.97%
+ male: 20.54%
+ 
+ Key Findings:
+- Missing Age values were filed using the media.
+- Duplicate row were removed.
+- Outliers in fare were removed using theIQR method.n- Female passengers generally had a higher survival rate.
