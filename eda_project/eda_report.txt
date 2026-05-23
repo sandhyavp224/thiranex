@@ -1,0 +1,41 @@
+Titanic Exploratory Data Analysis Report
+==========================================
+
+Total Passengers: 891
+Average Age: 29.70
+Overall Survival Rate: 38.38% 
+
+Missing Values Summary:
+survived         0
+pclass           0
+sex              0
+age            177
+sibsp            0
+parch            0
+fare             0
+embarked         2
+class            0
+who              0
+adult_male       0
+deck           688
+embark_town      2
+alive            0
+alone            0
+sex_numeric      0
+dtype: int64
+
+Correlation Iinsights:
+-Gender had the strongest correlation wih survival
+- Passenger class negatively correlated with survival.
+- Higher fares were associated with better survival chances.
+
+Survival Rate by Passenger Class:
+Class 1: 62.96%
+Class 2: 47.28%
+Class 3: 24.24%
+
+Key Finding:
+- Female passengers had higher survival rate.
+- First-class passengers were more likely to survive.
+- Most passengers were  young adults.
+- Fare and class were strongly related.
