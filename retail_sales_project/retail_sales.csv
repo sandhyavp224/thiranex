@@ -1,0 +1,11 @@
+Order_Date,Product,Category,Sales,Profit,Quantity,Region
+2025-01-01,Laptop,Electronics,50000,8000,5,South
+2025-01-02,Phone,Electronics,30000,5000,8,North
+2025-01-03,Chair,Furniture,15000,3000,10,East
+2025-01-04,Table,Furniture,20000,4000,6,West
+2025-01-05,Headphones,Electronics,10000,2000,15,South
+2025-01-06,Sofa,Furniture,40000,7000,3,North
+2025-01-07,Monitor,Electronics,25000,4500,7,East
+2025-01-08,Desk,Furniture,18000,3500,5,West
+2025-01-09,Keyboard,Electronics,8000,1500,12,South
+2025-01-10,Mouse,Electronics,6000,1200,20,North
