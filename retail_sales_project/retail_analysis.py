@@ -54,33 +54,33 @@ plt.savefig("monthly_sales_trend.png")
 plt.close()
 
 
-# print("First 5 rows")
-# print(df.head())
+print("First 5 rows")
+print(df.head())
 
-# print("\nColumn Names:")
-# print(df.columns)
+print("\nColumn Names:")
+print(df.columns)
 
-# print("\nDataset Shape:")
-# print(df.shape)
+print("\nDataset Shape:")
+print(df.shape)
 
-# print("\nStatistical Summary")
-# print(df.describe())
+print("\nStatistical Summary")
+print(df.describe())
 
-# total_sales = df["Sales"].sum()
-# print("\nTotal Sales:" , total_sales)
+total_sales = df["Sales"].sum()
+print("\nTotal Sales:" , total_sales)
 
-# total_profit = df["Profit"].sum()
-# print("Total Profits:",total_profit)
+total_profit = df["Profit"].sum()
+print("Total Profits:",total_profit)
 
-# average_sales = df["Sales"].mean()
-# print("Average Sales:", average_sales)
+average_sales = df["Sales"].mean()
+print("Average Sales:", average_sales)
 
-# #Find a row with highest sales value
-# top_product = df.loc[df["Sales"].idxmax()]
+#Find a row with highest sales value
+top_product = df.loc[df["Sales"].idxmax()]
 
-# print("\nTop Performing Product")
-# print(top_product)
+print("\nTop Performing Product")
+print(top_product)
 
-# category_sales  = df.groupby("Category")["Sales"].sum()
+category_sales  = df.groupby("Category")["Sales"].sum()
 
-# print("\nSales by Category:",category_sales)
+print("\nSales by Category:",category_sales)
